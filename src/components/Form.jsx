@@ -48,6 +48,7 @@ function Form() {
               className="form-control"
               name="username"
               id="username"
+              value={user.username || ""}
               placeholder="username"
               onChange={handleChange}
             />
@@ -61,6 +62,7 @@ function Form() {
               className="form-control"
               name="email"
               id="email"
+              value={user.email || ""}
               placeholder="xyz@email.com"
               onChange={handleChange}
             />
@@ -74,6 +76,7 @@ function Form() {
               className="form-control"
               name="password"
               id="password"
+              value={user.password || ""}
               onChange={handleChange}
             />
           </div>
