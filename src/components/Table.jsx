@@ -4,7 +4,7 @@ function Table(users) {
     return (
         <>
             <div className="container">
-                <table className="table table-hover">
+                <table className="table table-hover border border-secondary-subtle p-5">
                     <thead>
                         <tr>
                             <th scope="col">id</th>
